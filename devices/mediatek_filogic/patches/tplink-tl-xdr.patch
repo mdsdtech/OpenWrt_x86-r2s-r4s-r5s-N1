@@ -34,6 +34,8 @@
  
  				volumes {
 
+--- a/target/linux/mediatek/image/filogic.mk
++++ b/target/linux/mediatek/image/filogic.mk
 @@ -1130,23 +1130,13 @@ define Device/tplink_tl-xdr-common
    BLOCKSIZE := 128k
    PAGESIZE := 2048
