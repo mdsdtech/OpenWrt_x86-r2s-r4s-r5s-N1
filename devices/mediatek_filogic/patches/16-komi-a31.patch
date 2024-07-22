@@ -5,8 +5,6 @@ Subject: [PATCH] mediatek: filogic: add support for KONKA KOMI A31
 
 Signed-off-by: Chen Minqiang <ptpt52@gmail.com>
 ---
- .../dts/mt7981b-konka-komi-a31-base.dtsi      | 233 ++++++++++++++++++
- .../dts/mt7981b-konka-komi-a31-nmbm.dts       |  21 ++
  .../mediatek/dts/mt7981b-konka-komi-a31.dts   |   8 +
  .../filogic/base-files/etc/board.d/01_leds    |   4 +
  .../filogic/base-files/etc/board.d/02_network |   2 +
@@ -14,8 +12,6 @@ Signed-off-by: Chen Minqiang <ptpt52@gmail.com>
  .../base-files/lib/upgrade/platform.sh        |   1 +
  target/linux/mediatek/image/filogic.mk        |  47 ++++
  8 files changed, 322 insertions(+)
- create mode 100644 target/linux/mediatek/dts/mt7981b-konka-komi-a31-base.dtsi
- create mode 100644 target/linux/mediatek/dts/mt7981b-konka-komi-a31-nmbm.dts
  create mode 100644 target/linux/mediatek/dts/mt7981b-konka-komi-a31.dts
 
 diff --git a/target/linux/mediatek/dts/mt7981b-konka-komi-a31.dts b/target/linux/mediatek/dts/mt7981b-konka-komi-a31.dts
